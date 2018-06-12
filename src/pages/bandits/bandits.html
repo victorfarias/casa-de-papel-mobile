@@ -1,0 +1,24 @@
+<!--
+  Generated template for the BanditsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>bandits</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item *ngFor="let bandit of bandits">
+      <h2>{{ bandit.real_name }}</h2>
+      <h3>{{ bandit.fake_name }}</h3>
+    </ion-item>
+  </ion-list>
+</ion-content>
